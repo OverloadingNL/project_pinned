@@ -100,7 +100,7 @@ namespace UnityTest
 
         private void OnLeftMouseButtonClick(Rect rect)
         {
-            if (rect.Contains(Event.current.mousePosition) && Event.current.type == EventType.mouseDown && Event.current.button == 0)
+            if (rect.Contains(Event.current.mousePosition) && Event.current.type == EventType.MouseDown && Event.current.button == 0)
             {
                 OnSelect();
             }

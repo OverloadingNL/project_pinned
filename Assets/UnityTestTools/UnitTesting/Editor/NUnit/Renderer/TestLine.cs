@@ -69,7 +69,7 @@ namespace UnityTest
             OnLeftMouseButtonClick(rect);
             OnContextClick(rect);
 
-            if(Event.current.type == EventType.repaint)
+            if(Event.current.type == EventType.Repaint)
                 Styles.testName.Draw(rect, m_Content, false, false, false, isSelected);
 
             if (result.Outdated) GUI.color = tempColor;
